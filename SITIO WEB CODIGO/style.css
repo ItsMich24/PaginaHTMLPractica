@@ -1,0 +1,110 @@
+body {
+    background-color:#e7e9c4;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0; /* espacio exterior que rodea un elemento. Se utiliza para separar un
+    elemento de otros elementos en la página.*/
+    padding: 5px; /*espacio interior entre el contenido de un elemento y su borde */ 
+}
+
+ header{
+    background-color:#bdbf90;
+    color: #ec6c2b;
+    text-align: center;
+ }     
+
+ header img{
+    width:190px;
+    height: 190px;
+    border-radius: 100%;
+ }
+
+ header h1{
+    padding-top: 20px; /* Espacio en la parte superior */
+    font-family: "Unlock", serif;
+    font-weight: 400px; /* Grosor de la fuente */
+    font-style: normal; /* El texto se muestra en estilo normal (sin cursiva) */
+    font-size: 30px;
+ }
+
+ header h2{
+    font-size:30px;
+    padding-bottom: 20px; /* Espacio en la parte inferior */
+ }
+
+ul{
+    list-style-type: none; /*quita puntos de la lista */
+    padding: 0px; /* Elimina el padding */
+    margin: 0px; /* Elimina el margin */
+    display: flex; /* Usa Flexbox para alinear los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+
+li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 50px; /* Espacio entre los elementos */
+}
+
+ h3{
+   padding: 30px;
+   text-align: center;
+   font-size: 20px;
+   background-color: #dc7633;
+ }
+
+ p{
+   background-color: #f8c471 ;
+    text-align: center;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ h4{
+    text-align: center;
+ }
+
+ .video-container {
+   text-align: center; /* Centra el contenido del contenedor */
+}
+
+iframe {
+    width: 80%; /* Ancho del video */
+    height: 200px; /* Alto del video */
+    margin: 0 auto; /* Márgenes automáticos para centrar */
+    display: block; /* Hace que el iframe sea un bloque */
+}
+
+blockquote {
+   width: 70%; /* Cambiado a 70% para que sea más pequeño */
+   max-width: 400px; /* Máximo ancho reducido a 400 píxeles */
+   height: auto; /* Altura automática para mantener la proporción */
+   margin: 0 auto; /* Márgenes automáticos para centrar */
+   display: block; /* Hace que el blockquote sea un bloque */
+}
+
+.tiktok-embed {
+   width: 100%; /* El iframe dentro del blockquote ocupará el 100% del ancho */
+   height: auto; /* Mantiene la proporción del video */
+}
+
+section ul {
+   list-style-type: none; /* Elimina los puntos de la lista */
+   padding: 0; /* Elimina el padding */
+   margin: 0; /* Elimina el margen de la lista */
+}
+
+section ul li {
+   margin: 15px 0; /* Aumenta el espaciado entre los elementos de la lista */
+}
+
+section ul li a {
+   color: orange; /* Color del enlace */
+   text-decoration: none; /* Elimina el subrayado */
+   padding: 5px 10px; /* Agrega espaciado interno */
+   display: inline-block; /* Permite aplicar padding y margin */
+}
+
+section ul li a:hover {
+   color: brown; /* Color del enlace al pasar el cursor */
+}
